@@ -12,12 +12,14 @@
     "lint:fix": "eslint . --ext .ts,.vue --fix"
   },
   "dependencies": {
+    "@types/three": "^0.185.1",
     "axios": "^1.18.1",
     "clsx": "^2.1.1",
     "echarts": "^6.1.0",
     "lucide-vue-next": "^0.511.0",
     "pinia": "^2.3.1",
     "tailwind-merge": "^3.3.0",
+    "three": "^0.185.1",
     "vee-validate": "^4.15.1",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5",

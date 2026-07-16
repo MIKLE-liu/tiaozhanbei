@@ -7,12 +7,14 @@ import {
   LogIn,
   UserPlus,
   Sparkles,
+  Telescope,
 } from 'lucide-vue-next'
 
 const route = useRoute()
 
 const mainNav = [
   { name: 'jobs', label: '岗位查询', icon: Briefcase, path: '/jobs' },
+  { name: 'all-jobs', label: '全部职业', icon: Telescope, path: '/all-jobs' },
   { name: 'resume', label: 'AI 简历分析', icon: FileText, path: '/resume' },
   { name: 'plan', label: '职业规划', icon: Compass, path: '/plan' },
 ]

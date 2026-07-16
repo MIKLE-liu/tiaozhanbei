@@ -13,6 +13,7 @@ import {
   Users,
   Award,
   BarChart3,
+  Telescope,
 } from 'lucide-vue-next'
 
 const router = useRouter()
@@ -113,8 +114,9 @@ function go(path: string) {
             浏览岗位
             <ArrowRight class="h-5 w-5" />
           </button>
-          <button class="btn-secondary px-8 py-3 text-base" @click="go('/resume')">
-            AI 分析简历
+          <button class="btn-secondary px-8 py-3 text-base" @click="go('/all-jobs')">
+            <Telescope class="h-5 w-5" />
+            探索职业星空
           </button>
         </div>
 
